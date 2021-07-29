@@ -1,43 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-<meta charset="UTF-8" />
-<title>Caleb Lund</title>
+<head>
+  <meta charset="UTF-8" />
+  <title>RUN BUDDY</title>
+ 
+<link rel="stylesheet" href="./style.css" />
 </head>
 <body>
     <!-- navigation -->
-    <header>
-    <h1>RUN BUDDY</h1>
-    </header>
+    <header> 
+        <!-- * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header nav ul li {
+            display: inline;
+        }
+        header nav ul li a {
+            margin: 0 30px;
+            font-weight: lighter;
+            font-sixe: 22px;
+        }
+        header h1 {
+       font-weight: bold;
+       font-size: 36px;
+       color: #fce138;
+       margin: 0;
+     display: inline; 
+    }
+     { 
+         header a {
+           text-decoration: none;
+             color: #fce138; 
+         }
+         header nav {
+             float: right;
+             margin: 7px 0;
+         }  -->
+ <a href="/">RUN BUDDY</a>
+     }
+    <nav><!-- Unordered List Element -->
+    <ul>
+        <!-- List Item Element -->
+        <li>
+            <!-- Anchor Element -->
+            <a href="#what-we-do">What We Do</a>
+        </li>
 
-    <!-- hero/jumbotron -->
-    <section>
+        <li>
+            <a href="#What-You-Do">What You Do</a>
+        </li>
+
+        <li>
+            <a href="#your-trainers">Your Trainers</a>
+            </li>
+
+            <li>
+                <a href="#reach-out">Reach Out</a>
+            </li>
+            
+        </ul>
+      </nav>
+    </header>
+   <!-- hero section -->
+    <section class="hero">
+        <div class="hero-form"> 
+            <h3>Get Started Today</h3>
+            <p>Fill out this form and one of our trainers will schedule a consult</p>
+        <!-- Add form element -->
+        <form>
+            <label for="name">Enter Full Name:</label>
+            <input type="text" placeholder="Your Name" name="name" id="name" class="form-input">
+            <label for="email">Enter Email Address:</label>
+            <input type="email" placeholder="Email Address" name="email" id="email" class="form-input">
+            <label for="phone">Enter A Telephone Number:</label>
+            <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input">
+            <p>
+                Have you worked out with a trainer before?
+                <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                <label for="trainer-yes">Yes</label>
+                <input type="radio" name="trainer-confirm" id="trainer-no"
+                <label for="trainer-no">No</label>
+            </p>
+            <p>
+                <label for="checkbox" >
+                    I acknowledge that I am at least 18 years of age.
+                </label>
+                <input type="checkbox" name="age-confirm" id="checkbox" />
+            </p>
+            <button type="submit">
+                Get running!
+            </button>
+        </form>
+        </div>
     </section>
+    <!-- end hero -->
 
     <!-- "What We Do" -->
+     <section id="what-we-do" class="intro">
+            <h2 class="section-title primary-border">What We Do</h2>
+            ...
+          </section>
+    </section>
     <section>
-        <h2>What We Do</h2>
+        <p>
+            butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia unami deep v craft  
+        </p>
     </section>
 
     <!-- "What You Do" -->
-    <section>
-        <h2>What You Do</h2>
+     <section id="what-you-do" class="steps">
+            <h2 class="section-title secondary-border">What You Do</h2>
+
+        <div>
+            <img src=".desktop/module 1/uofa-virt-bo-fsf-pt-07-2021-u-b-master/01-HTML-git-CSS/02-Challenge/Develop/assets/01-04-svgs/Step-One-svgs" alt="" />
+            <h3>Step 1: <span>Fill Out the Form Above.</span></h3>
+            <p>You're already here, so why not?</p>
+        </div>
+
+        <div>
+            <img src="./assets/images/step-2.svg" alt="" />
+            <h3>Step 2: <span>Consult with one of our Trainers.</span>></h3>
+            <p>Are you here to build muscle, lose weight, or just feel good?</p>
+        </div>
+
+        <div>
+            <img src="./assets/images/step-3.svg" alt="" />
+            <h3>Step 3: <span>Get Running</span></h3>
+            <p>Hit the ground running (litterally) once your trainer lays ouut your plan </p>
+        </div>
+
+        <div>
+            <img src="./assets/images/step-4.svg" alt="" />
+            <h3>Step 4: <span>See Results.</span></h3>
+        <p>Bi-weekly checkins with your trainer will keep you focused</p>
+    </div>
     </section>
-    
+
     <!-- "Meet The Trainers" -->
     <section>
-        <h2>Meet The Trainers</h2>
-    </section>
+         <section id="your-trainers" class="trainers">
+            <h2>Meet The Trainers</h2>
+         </section>
 
     <!-- "Reach Out" section -->
     <section>
         <h2>Reach Out</h2>
     </section>
-    What We Do What You Do Your Trainers Reach Out
 
     <!-- Footer -->
+  
     <footer>
         <h2> &#x2764 Made with love by Run Buddy. </h2>
+        
+        <div>
+            <a href="#">Read Our Privacy Policy</a><br />
+            &copy; 2019 Run Buddy, Inc.
+        </div>
+
     </footer>
-    </body>
-    </html>
+</body>
+</html>
+
+
+
+
+      
+   
+
+    
